@@ -8,6 +8,9 @@
         <router-link :to="{ name: 'About' }" class="navbar-link">About Us</router-link>
       </v-tab>
       <v-tab class="navbar-tab">
+        <router-link :to="{ name: 'Members' }" class="navbar-link">Members</router-link>
+      </v-tab>
+      <v-tab class="navbar-tab">
         <router-link :to="{ name: 'Portfolio' }" class="navbar-link">Portfolio</router-link>
       </v-tab>
       <v-tab class="navbar-tab">

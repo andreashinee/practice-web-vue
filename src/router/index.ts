@@ -36,6 +36,18 @@ const routes = [
     ],
   },
   {
+    path: '/members',
+    component: () => import('@/layouts/default/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Members',
+        component: () => import('@/views/Members.vue'),
+      },
+    ],
+  },
+  
+  {
     path: '/contact',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
