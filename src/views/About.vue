@@ -22,7 +22,7 @@
 .banner {
   background-image: url('https://media.stubcloudstatic.com/stubhub-catalog/d_defaultLogo.jpg/t_f-fs-0fv,q_auto:low,f_auto,c_fill,$w_750_mul_3,$h_416_mul_3/performer/44713/d41d8cd98f00b204e9800998ecf8427e');
   background-size: cover;
-  background-position: center -250px; /* Centra la imagen horizontalmente y alinea en la parte superior verticalmente */
+  background-position: center -250px; 
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
@@ -44,7 +44,7 @@
   font-family: 'Lora', serif;
   color: rgb(0, 0, 0);
   font-size: 24px;
-  font-weight: normal; /* Establece el peso de la fuente como normal */
+  font-weight: normal; 
   margin: 0;
   text-align: center;
   animation: fade-in 2s ease-in-out;
